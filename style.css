@@ -1,0 +1,197 @@
+body{
+    background-color: gray;
+    margin-right: 1.5rem;
+}
+
+.heading{
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 1rem;
+    border: 10px solid red;
+    height: 150px;
+    width: 600px;
+    box-shadow: 10px 10px darkmagenta;
+}
+
+.heading h1{
+    color: rgb(197, 12, 12);
+    padding-left: 150px;
+    padding-right: 150px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.container{
+    /* margin: 20px; */
+    background-color: grey;
+    border: 10px solid green;
+    width: 100%;
+    /* height: 100vh; */
+    margin-right: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem
+}
+
+.box1{
+    margin-left: 0.5rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 1rem;
+    border: 10px solid red;
+    height: 250px;
+    width: 225px;
+    box-shadow: 10px 10px blue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: normal;
+   display: inline-block;
+}
+
+.address {
+    padding-bottom: 1rem;
+    padding: 0.5rem;
+    line-height: 3rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px rgba(124, 4, 70, 0.534);
+}
+
+.box2{
+    margin: 0.2rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 1rem;
+    border: 10px solid red;
+    height: 250px;
+    width: 225px;
+    box-shadow: 10px 10px blue;
+    display: inline-block;
+    float: right;
+    margin-right: 1rem;
+}
+
+.img{
+    padding-top: 4rem;
+    height: 20vh;
+}
+
+.tagline {
+    padding-bottom: 1rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px rgba(124, 4, 70, 0.534);
+}
+
+.rateus{
+    padding-bottom: 1rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px rgba(124, 4, 70, 0.534);
+    font-size: 1.5rem;
+}
+
+label{
+    font-weight: bold;
+}
+
+
+.middle-box{
+    margin: auto;
+    background-color: grey;
+    border: 10px solid blueviolet;
+    width: 1000px;
+    height: auto;
+    margin-top: 2rem;
+    background-color: green;
+}
+
+.subheading{
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.fruits{
+    margin-right: 0.2rem;
+    text-align: center;
+    background-color: rgb(192, 243, 116);
+    border: 3px solid red;
+    height: 350px;
+    width: 500px;
+    /* display: inline-block;
+    float: left; */
+}
+
+.Vegetables{
+    margin-left: 0.2rem;
+    text-align: center;
+    background-color: rgb(192, 243, 116);
+    border: 3px solid red;
+    height: 350px;
+    width: 500px;
+    /* display: inline-block;
+    float: right; */
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-box{
+    padding: 1rem 0rem 1rem 0.5rem;
+    text-align: center;
+    background-color: rgb(192, 243, 116);
+    height: 300px;
+    width: 1000px;
+    margin-top: 1rem;
+    margin-right: 0;
+    border: 2px solid red;
+}
+
+.fruit-text{
+    margin: 1rem;
+    font-size: 1.25em;
+    line-height: 3rem;
+    font-weight: bold;
+    font-style: oblique;
+    color: brown;
+}
+
+.fixed-box{
+    position: fixed;
+    bottom: 0;
+    right: 35%;
+    left: 30%;
+    height: 100px;
+    width: 600px;
+    background-color: chartreuse;
+    border: 10px solid red;
+    border-radius: 1rem;
+    border-bottom: 0px;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    text-align: center;
+    display: flex;
+    box-shadow: 10px 10px blue;
+}
+
+.first{
+    color: rgb(109, 10, 10);
+    font-style: oblique;
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+
+.second{
+    color: rgb(109, 10, 10);
+    font-style: oblique;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+}
+
+button{
+    background-color: red;
+    border-radius: 1rem;
+}
